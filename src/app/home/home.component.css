@@ -1,0 +1,150 @@
+/* General Styles */
+.home {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(67, 152, 185);
+    color: white;
+    padding: 20px;
+}
+
+.home-logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.home-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.home-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.home-hero {
+   
+    color: rgb(226, 68, 68);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.home-hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.home-hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-explore {
+    background-color: #0044cc;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn-explore:hover {
+    background-color: #003399;
+}
+
+/* About Section */
+.home-about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.home-about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.home-about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+}
+
+/* Courses Section */
+.home-courses {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.home-courses h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.courses-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.course-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.course-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer */
+.home-footer {
+    background-color: #0044cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.home-footer p {
+    margin: 0;
+}
+
+.home-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.home-footer a:hover {
+    text-decoration: underline;
+}
