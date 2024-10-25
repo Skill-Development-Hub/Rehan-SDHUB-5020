@@ -11,9 +11,13 @@ import { MatButtonModule} from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 import { SigninComponent } from './signin/signin.component';
-import { RegisterComponent } from './register/register.component';
+import { RegistrationComponent } from './registration/registration.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+
 
 
 
@@ -22,9 +26,12 @@ import { AboutComponent } from './about/about.component';
   declarations: [
     AppComponent,
     SigninComponent,
-    RegisterComponent,
+    RegistrationComponent,
     HomeComponent,
     AboutComponent,
+    RegistrationComponent,
+    FooterComponent,
+    NavbarComponent,
     
   
   ],
@@ -37,6 +44,7 @@ import { AboutComponent } from './about/about.component';
     MatInputModule,
     FormsModule,
     ReactiveFormsModule,
+    MatToolbarModule
   ],
   providers: [
     provideAnimationsAsync()
