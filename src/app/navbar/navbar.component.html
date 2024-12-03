@@ -1,15 +1,22 @@
 <mat-toolbar color="primary">
-    <a routerLink="/home">
-      <img src="logo.png" alt="SDHub Logo" class="logo" />
-    </a>
-    <span class="spacer"></span>
-    
-    <nav>
-      <button mat-button routerLink="/home">Home</button>
-      <button mat-button routerLink="/about">About</button>
-      <button mat-button routerLink="/signin">Signin</button>
-      <button mat-button routerLink="/register">Register</button>
-   
-   
-    </nav>
-  </mat-toolbar>
+  <a routerLink="/home">
+    <img src="logo.png" alt="Ecom logo" class="" />
+    <img src="Ecom12.png" alt="Ecom logo" class="" />
+  </a>
+
+  <!-- Spacer to push search and buttons to the right -->
+  <span class="spacer"></span>
+
+  <!-- Search Container -->
+  <mat-form-field appearance="fill" >
+    <mat-label>Search</mat-label>
+    <input matInput placeholder="Search..." (input)="onSearch($event)">
+  </mat-form-field>
+
+  <nav>
+    <button mat-button routerLink="/home">Login</button>
+    <button mat-button routerLink="/about">Cart</button>
+    <button mat-button routerLink="/signin">Become a seller ?</button>
+    <button mat-button routerLink="/register">Register</button>
+  </nav>
+</mat-toolbar>

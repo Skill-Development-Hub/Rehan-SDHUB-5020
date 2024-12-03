@@ -26,7 +26,7 @@
 /* Hero Section */
 .home-hero {
    
-    color: rgb(226, 68, 68);
+    color: rgb(116, 14, 14);
     text-align: center;
     padding: 100px 20px;
 }
@@ -134,3 +134,15 @@
 .home-footer a:hover {
     text-decoration: underline;
 }
+.image-container {
+    
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px; /* Space between images */
+  }
+  .image-container img {
+    width: 80%; /* Fill grid cell */
+    height: auto;
+  }
