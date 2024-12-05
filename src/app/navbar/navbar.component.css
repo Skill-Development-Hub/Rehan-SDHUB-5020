@@ -5,6 +5,8 @@
 .spacer {
     flex: 1; /* This will push the nav buttons to the right */
 }
-.search{
-align-content: center;
+.quote{
+    font-weight: 100;
+    font-style:italic;
+
 }
